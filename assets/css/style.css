@@ -1,0 +1,121 @@
+body {
+    background: url("https://www.pixelstalk.net/wp-content/uploads/2016/03/Comics-superman-wallpaper-Full-HD.jpg") no-repeat center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    border-color: #ffed10;
+    box-shadow: 0 0.5em 0.5em -0.4em #ffed10;
+    color: white;
+    transform: translateY(-0.25em);
+}
+
+.cabecalho {
+    align-items: center;
+    background-color: #004174;
+    border-bottom: 3px solid #e64b49;
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho__logo {
+    color: #e64b49;
+    display: inline;
+    font-family: 'Stalinist One', cursive;
+    font-size: 1.5rem;
+    padding: 1%;
+}
+
+.cabecalho__logo a {
+    color: #e64b49;
+}
+
+.cabecalho__logo:visited {
+    color: #e64b49;
+}
+
+.cabecalho__menu {
+    width: 70%;
+}
+
+.menu__lista {
+    text-align: right;
+}
+
+.menu__item {
+    color: #f6e712;
+    display: inline;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.2rem;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.menu__item a {
+    color: #f6e712;
+}
+
+.menu__item a:hover {
+    color: white;
+    border-color: #f1ff5c;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+}
+
+.bio {
+    background-color: #004174;
+    border: 3px solid #e64b49;
+    border-radius: 5%;
+    margin: 2%;
+    overflow: auto;
+    padding: 1%;
+    width: 25%;
+}
+
+.bio p {
+    color: white;
+    font-family: 'Nerko One', cursive;
+    font-size: 1.2rem;
+    text-align: justify;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+.bio li {
+    color: #ffffff;
+    font-family: 'Nerko One', cursive;
+    font-size: 1rem;
+    ;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+h1 {
+    color: #ffed10;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    text-decoration: underline;
+}
+
+.rodape {
+    background-color: #004174;
+    border-top: 3px solid #e64b49;
+    bottom: 0;
+    color: #ffed10;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1rem;
+    height: 50px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.rodape a {
+    color: white;
+    text-decoration: none;
+}
